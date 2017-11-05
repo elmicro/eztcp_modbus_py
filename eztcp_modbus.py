@@ -2,12 +2,14 @@
 
 #-----------------------------------------------------------------------------
 #
-#   Test example to access an ezTCP Remote I/O-Controller
-#   Sollae Systems model CIE-H10 / CIE-H12 / CIE-H14
-#   via Modbus/TCP protocol using Python 3
+#   Internet Remote Switching with ezTCP via Modbus/TCP (Python 3)
 #
 #   by Oliver Thamm - Elektronikladen Microcomputer
 #   https://github.com/elmicro/eztcp_modbus_py
+#
+#   Test example to access an ezTCP Remote I/O-Controller
+#   model CIE-H10 / CIE-H12 / CIE-H14 (Sollae Systems)
+#   via Modbus/TCP protocol using Python 3
 #
 #   Requires EasyModbusTCP/UDP/RTU Python by Stefan Rossmann
 #   https://github.com/rossmann-engineering/EasyModbusTCP.PY
@@ -18,21 +20,6 @@
 #   the MIT License - see accompanying LICENSE.md for details
 #
 #-----------------------------------------------------------------------------
-
-'''
-CIE-H1x Configuration
----------------------
-Network settings:
-- use ezManager tool (Windows) to select basic IP settings
-  matching your local network configuration
-I/O Port settings:
-- Modbus/TCP enabled
-- Slave
-- unit = 1
-- output port base = 9
-- passive connection
-- local port 502
-'''
 
 import time
 from ModbusClient import *
