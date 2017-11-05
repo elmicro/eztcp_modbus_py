@@ -1,7 +1,7 @@
 # eztcp_modbus_py
 ## Internet Remote Switching with ezTCP via Modbus/TCP (Python 3)
 
-by Oliver Thamm - Elektronikladen Microcomputer<br>
+by Oliver Thamm - [Elektronikladen Microcomputer](https://elmicro.com)<br>
 https://github.com/elmicro/eztcp_modbus_py
 
 ### Description
